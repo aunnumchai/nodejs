@@ -2,6 +2,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 
 const store = require('./store')
+const conn = require('./connect')
  
 const app = express()
 app.use(bodyParser.json())
